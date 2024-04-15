@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T01:24:02.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="djG5p75LfxrwI9F7CER8" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-15T01:44:10.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kmPG9WNv32_Hr4V6s5RP" version="24.2.5" type="github">
   <diagram name="第 1 页" id="N4fUJIOXcd8arKUr6l5r">
     <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,13 +11,117 @@
           <mxGeometry x="400" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vds_o-RuWsO1pGtpF9mR-3" value="计算距离" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="399" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vds_o-RuWsO1pGtpF9mR-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-6" target="vds_o-RuWsO1pGtpF9mR-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vds_o-RuWsO1pGtpF9mR-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-6" target="vds_o-RuWsO1pGtpF9mR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-6" value="客户坐标是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459.5" y="110" as="sourcePoint" />
+            <mxPoint x="460" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-2" target="vds_o-RuWsO1pGtpF9mR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="340" as="sourcePoint" />
+            <mxPoint x="300" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-3" target="vds_o-RuWsO1pGtpF9mR-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="310" />
+              <mxPoint x="680" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-14" target="vds_o-RuWsO1pGtpF9mR-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-14" target="vds_o-RuWsO1pGtpF9mR-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-14" value="10s内坐标是否能获取到" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-16" value="直接取销售坐标" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-18" value="同步获取销售坐标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="278" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-19" value="同步获取客户坐标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="278" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-20" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="408" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-21" target="vds_o-RuWsO1pGtpF9mR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-21" value="根据客户名称获取坐标信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-23" value="不存在逆地址解析获取客户坐标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="408" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-24" value="销售坐标为空&lt;br&gt;销售位置信息为空" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-27" value="获取销售坐标&lt;br&gt;获取销售位置信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-30" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="408" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-31" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="408" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-32" target="vds_o-RuWsO1pGtpF9mR-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-32" target="vds_o-RuWsO1pGtpF9mR-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-32" value="10s内是否成功获取到" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-34" value="成功获取到" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-36" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="648" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-37" value="客户坐标为空" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-39" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="648" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
