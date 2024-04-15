@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-15T02:10:35.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="GijVmcJhmRj26EUlwSZI" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-15T02:30:51.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="66xoma2Y3_vImmQ3CPK1" version="24.2.5" type="github">
   <diagram name="第 1 页" id="N4fUJIOXcd8arKUr6l5r">
     <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
         <mxCell id="vds_o-RuWsO1pGtpF9mR-14" value="5s内坐标是否能获取到" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="400" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vds_o-RuWsO1pGtpF9mR-16" value="直接取销售坐标" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-16" value="直接取客户坐标" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vds_o-RuWsO1pGtpF9mR-18" value="同步获取销售坐标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -88,7 +88,7 @@
           <mxGeometry x="740" y="408" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vds_o-RuWsO1pGtpF9mR-24" value="销售坐标为空&lt;br&gt;销售位置信息为空" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vds_o-RuWsO1pGtpF9mR-27" value="获取销售坐标&lt;br&gt;获取销售位置信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="520" width="120" height="60" as="geometry" />
@@ -115,7 +115,7 @@
           <mxGeometry x="730" y="648" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vds_o-RuWsO1pGtpF9mR-37" value="客户坐标为空" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="760" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vds_o-RuWsO1pGtpF9mR-39" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="930" y="648" width="40" height="30" as="geometry" />
@@ -164,7 +164,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vds_o-RuWsO1pGtpF9mR-51" value="5s 内能否获取" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vds_o-RuWsO1pGtpF9mR-51" value="5s 内是否成功能否获取" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="1110" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vds_o-RuWsO1pGtpF9mR-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vds_o-RuWsO1pGtpF9mR-51" target="vds_o-RuWsO1pGtpF9mR-41">
